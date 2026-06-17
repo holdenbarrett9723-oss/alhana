@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شركة الهنا - خدمات الديكور والتنظيف</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <!-- TikTok Pixel Code Start -->
+  <script>
+  !function (w, d, t) {
+    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+  var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+  ;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+    ttq.load('D3AFJCJC77U15FSVOKS0');
+    ttq.page();
+  }(window, document, 'ttq');
+  </script>
+  <!-- TikTok Pixel Code End -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold: #c8972a;
+      --gold-light: #f0c040;
+      --gold-pale: #fdf3d0;
+      --dark: #0e1117;
+      --dark2: #181e2a;
+      --dark3: #1e2535;
+      --white: #ffffff;
+      --text-light: #e8dfc0;
+      --shadow: rgba(200,151,42,0.25);
+    }
+
+    body {
+      font-family: 'Tajawal', 'Segoe UI', sans-serif;
+      background: #f4f0e6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 12px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 480px;
+      background: var(--white);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: linear-gradient(160deg, #0b0f1a 0%, #131924 50%, #1a2236 100%);
+      padding: 28px 20px 22px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: -60px; left: 50%;
+      transform: translateX(-50%);
+      width: 260px; height: 260px;
+      background: radial-gradient(circle, rgba(200,151,42,0.15) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
+    }
+
+    .logo-wrapper {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .logo-circle {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1a2236 0%, #0e1117 100%);
+      border: 3px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      box-shadow: 0 0 0 5px rgba(200,151,42,0.15), 0 4px 20px rgba(0,0,0,0.4);
+      position: relative;
+    }
+
+    .logo-inner {
+      font-size: 36px;
+      line-height: 1;
+    }
+
+    .badge {
+      position: absolute;
+      bottom: -4px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+      color: var(--dark);
+      font-size: 9px;
+      font-weight: 900;
+      padding: 2px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+      letter-spacing: 0.5px;
+      box-shadow: 0 2px 8px rgba(200,151,42,0.5);
+    }
+
+    .header-title {
+      font-size: 26px;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 50%, #e8b830 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-top: 12px;
+      letter-spacing: 1px;
+      text-shadow: none;
+    }
+
+    .header-subtitle {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-top: 4px;
+      opacity: 0.85;
+    }
+
+    .city-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+      background: rgba(200,151,42,0.12);
+      border: 1px solid rgba(200,151,42,0.4);
+      color: var(--gold-light);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 14px;
+      border-radius: 20px;
+    }
+
+    .city-badge::before { content: '📍'; font-size: 11px; }
+
+    /* ===== PROMO BANNER ===== */
+    .promo {
+      background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+      color: var(--dark);
+      text-align: center;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.3px;
+    }
+
+    /* ===== SECTION TITLES ===== */
+    .section {
+      padding: 20px 18px;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--dark);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+      border-radius: 2px;
+    }
+
+    /* ===== SERVICES GRID ===== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .service-item {
+      background: linear-gradient(145deg, #fdf8ee, #f9f2dd);
+      border: 1.5px solid #e8d88a;
+      border-radius: 14px;
+      padding: 14px 8px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: default;
+    }
+
+    .service-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px var(--shadow);
+    }
+
+    .service-icon {
+      font-size: 26px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .service-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: #5a3e00;
+      line-height: 1.3;
+    }
+
+    /* ===== DIVIDER ===== */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #d4b86a, transparent);
+      margin: 0 18px;
+    }
+
+    /* ===== FEATURES ===== */
+    .features-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f8f6f0;
+      border-right: 3px solid var(--gold);
+      border-radius: 0 10px 10px 0;
+      padding: 10px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #2c2200;
+    }
+
+    .feature-item .fi {
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    /* ===== PHONE ===== */
+    .phone-box {
+      background: linear-gradient(135deg, var(--dark2), var(--dark3));
+      border-radius: 14px;
+      padding: 16px;
+      text-align: center;
+      border: 1.5px solid rgba(200,151,42,0.3);
+    }
+
+    .phone-label {
+      font-size: 11px;
+      color: var(--text-light);
+      margin-bottom: 6px;
+      opacity: 0.7;
+    }
+
+    .phone-number {
+      font-size: 24px;
+      font-weight: 900;
+      color: var(--gold-light);
+      letter-spacing: 2px;
+      direction: ltr;
+      display: block;
+    }
+
+    /* ===== BUTTONS ===== */
+    .buttons {
+      display: flex;
+      gap: 10px;
+      padding: 0 18px 18px;
+    }
+
+    .btn {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 14px 10px;
+      border-radius: 14px;
+      font-size: 14px;
+      font-weight: 800;
+      font-family: 'Tajawal', sans-serif;
+      text-decoration: none;
+      transition: transform 0.15s, box-shadow 0.15s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:active { transform: scale(0.96); }
+
+    .btn-call {
+      background: linear-gradient(135deg, #1a6b3a, #25a259);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(37,162,89,0.35);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--dark);
+      box-shadow: 0 4px 16px rgba(200,151,42,0.35);
+    }
+
+    .btn svg { width: 20px; height: 20px; flex-shrink: 0; }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background: linear-gradient(160deg, #0b0f1a, #131924);
+      padding: 14px 18px;
+      text-align: center;
+    }
+
+    .footer-rights {
+      font-size: 11px;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 5px;
+    }
+
+    .footer-designer {
+      font-size: 12px;
+      color: var(--text-light);
+      opacity: 0.85;
+    }
+
+    .footer-designer a {
+      color: var(--gold-light);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .footer-designer a:hover { text-decoration: underline; }
+
+    /* ===== PULSE ANIMATION ===== */
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(200,151,42,0.5); }
+      50% { box-shadow: 0 0 0 10px rgba(200,151,42,0); }
+    }
+
+    .btn-whatsapp { animation: pulse 2.5s infinite; }
+
+    @keyframes shimmer {
+      0% { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+
+    .header-title {
+      background-size: 200% auto;
+      animation: shimmer 4s linear infinite;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-wrapper">
+      <div class="logo-circle">
+        <span class="logo-inner">🏠</span>
+      </div>
+      <span class="badge">خبرة &amp; جودة &amp; ثقة</span>
+    </div>
+    <div class="header-title">شركة الهنا</div>
+    <div class="header-subtitle">لخدمات الديكور والتنظيف المتكاملة</div>
+    <div class="city-badge">المملكة العربية السعودية</div>
+  </div>
+
+  <!-- PROMO BANNER -->
+  <div class="promo">
+    🌟 خصم خاص على جميع الخدمات — تواصل معنا الآن 🌟
+  </div>
+
+  <!-- SERVICES -->
+  <div class="section">
+    <div class="section-title">🛋️ خدماتنا</div>
+    <div class="services-grid">
+
+      <div class="service-item">
+        <span class="service-icon">🛋️</span>
+        <div class="service-name">تنظيف الكنب</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🪞</span>
+        <div class="service-name">تنظيف السجاد</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🪟</span>
+        <div class="service-name">تنظيف الستائر</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🏡</span>
+        <div class="service-name">الفلل</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🏢</span>
+        <div class="service-name">الشقق</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🍳</span>
+        <div class="service-name">المطابخ</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🚪</span>
+        <div class="service-name">الخزانات</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🏗️</span>
+        <div class="service-name">الواجهات الخارجية</div>
+      </div>
+
+      <div class="service-item">
+        <span class="service-icon">🌿</span>
+        <div class="service-name">الحوش</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FEATURES -->
+  <div class="section">
+    <div class="section-title">✨ مميزاتنا</div>
+    <div class="features-list">
+      <div class="feature-item">
+        <span class="fi">✅</span>
+        فريق محترف ومدرّب على أعلى مستوى
+      </div>
+      <div class="feature-item">
+        <span class="fi">⚡</span>
+        خدمة سريعة في نفس اليوم بطلب واحد
+      </div>
+      <div class="feature-item">
+        <span class="fi">🧪</span>
+        مواد تنظيف آمنة وصديقة للبيئة
+      </div>
+      <div class="feature-item">
+        <span class="fi">💰</span>
+        أسعار تنافسية بدون مفاجآت
+      </div>
+      <div class="feature-item">
+        <span class="fi">🛡️</span>
+        ضمان الجودة على جميع الأعمال
+      </div>
+      <div class="feature-item">
+        <span class="fi">📞</span>
+        خدمة عملاء على مدار الساعة
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PHONE -->
+  <div class="section" style="padding-bottom: 14px;">
+    <div class="section-title">📞 تواصل معنا</div>
+    <div class="phone-box">
+      <div class="phone-label">رقم التواصل المباشر</div>
+      <span class="phone-number">0502018456</span>
+    </div>
+  </div>
+
+  <!-- BUTTONS -->
+  <div class="buttons">
+    <a href="tel:0502018456" class="btn btn-call" onclick="trackContact('call')">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+      </svg>
+      اتصل الآن
+    </a>
+    <a href="https://wa.me/966502018456" target="_blank" class="btn btn-whatsapp" onclick="trackContact('whatsapp')">
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+        <path d="M12 0C5.374 0 0 5.373 0 12c0 2.117.549 4.099 1.501 5.832L0 24l6.335-1.652A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.938A9.938 9.938 0 112.062 12 9.938 9.938 0 0112 21.938z"/>
+      </svg>
+      واتساب
+    </a>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-rights">© 2025 شركة الهنا — جميع الحقوق محفوظة</div>
+    <div class="footer-designer">
+      تم التصميم بواسطة
+      <a href="https://wa.me/201029095046" target="_blank">م. نجوي إبراهيم</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  function trackContact(method) {
+    if (typeof ttq !== 'undefined') {
+      ttq.track('Contact', {
+        content_name: 'شركة الهنا',
+        content_category: method === 'whatsapp' ? 'WhatsApp' : 'Phone Call',
+        description: 'تواصل عبر ' + (method === 'whatsapp' ? 'واتساب' : 'اتصال هاتفي')
+      });
+    }
+  }
+</script>
+</body>
+</html>
